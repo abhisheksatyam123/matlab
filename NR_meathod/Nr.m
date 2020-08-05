@@ -10,6 +10,7 @@ jf = jacobian(eqn, x1);
 
 x0 = [1 1 1];
 x2 = [2 2 2];
+e = error(x0,x2);
 
 
 while(e > 0.01)
